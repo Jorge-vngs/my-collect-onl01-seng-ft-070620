@@ -1,7 +1,7 @@
 def my_collect(array)
   x = 0 
   new_array = []
-  while x < array_length
+  while x < array.length
     if block_given?
     new_array << yield(array[x])
   end 
