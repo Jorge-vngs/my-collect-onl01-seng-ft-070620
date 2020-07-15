@@ -1,6 +1,6 @@
 def my_collect(array)
   x = 0 
-  new_array= []
+  new_array = []
   if block_given?
     new_array << yield(array[x])
   end 
@@ -8,11 +8,4 @@ def my_collect(array)
   end 
   puts new_array.inspect 
   new_array
-end 
-
-my_collect([1,2,3,4,5]) do |x|
-  x + 10
-  x -100 
-  x*10 
-  puts x+ 10 
 end 
