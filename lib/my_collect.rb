@@ -11,3 +11,8 @@ def my_collect(array)
 end 
 
 my_collect([1,2,3,4,5]) do |x|
+  x + 10
+  x -100 
+  x*10 
+  puts x+ 10 
+end 
